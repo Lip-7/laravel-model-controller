@@ -9,7 +9,7 @@
                 <p class="hero-description">
                     Embark on an Extraordinary Cinematic Journey: Where Imagination Meets Reality, Stories Come Alive, and Emotions Take Flight.
                 </p>
-                <a href="#" class="btn btn--fill margin-right-btn">Go check our movies</a>
+                <a href="{{route('movies.index')}}" class="btn btn--fill margin-right-btn">Go check our movies</a>
                 <a href="#" class="btn btn--outline margin-right-btn">Contact us
                 </a>
             </div>
