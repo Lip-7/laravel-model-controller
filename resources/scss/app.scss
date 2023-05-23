@@ -136,3 +136,9 @@ body {
 .moviesTitle{
     text-shadow: 0px 0px 5px white;
 }
+.showWrap{
+    img{
+        max-height: 1200px;
+        object-fit: cover;
+    }
+}

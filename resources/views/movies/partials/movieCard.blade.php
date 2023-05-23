@@ -3,6 +3,6 @@
     <div class="card-body">
       <h5 class="card-title text-black">{{$title}}</h5>
       <p class="card-text">{{$original_title}}</p>
-      <a href="#" class="btn btn-primary">Check more infos</a>
+      <a href="{{route('movies.show', ['id' => $id])}}" class="btn btn-primary">Check more infos</a>
     </div>
   </div>
