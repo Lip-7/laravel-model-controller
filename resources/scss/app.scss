@@ -137,11 +137,18 @@ body {
     text-shadow: 0px 0px 5px white;
 }
 .showWrap{
-    img{
-        max-height: 1200px;
-        object-fit: cover;
-    }
+
     h1,h2,h3{
         text-shadow: 0px 0px 2px white;
+    }
+
+    img{
+        width: 400px;
+    }
+    .imgwrap{
+        box-shadow: 0px 0px 5px black;
+    }
+    ms-7{
+
     }
 }
