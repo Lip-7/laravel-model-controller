@@ -1,8 +1,8 @@
-<div class="card">
+<div class="card border-0">
     <img src="{{$image}}" class="card-img-top" alt="{{$title}}">
-    <div class="card-body">
-      <h5 class="card-title text-black">{{$title}}</h5>
+    <div class="card-body bg-dark">
+      <h5 class="card-title text-white">{{$title}}</h5>
       <p class="card-text">{{$original_title}}</p>
-      <a href="{{route('movies.show', ['id' => $id])}}" class="btn btn-primary">Check more infos</a>
+      <a href="{{route('movies.show', ['id' => $id])}}" class="btn btn-warning">Check more infos</a>
     </div>
   </div>
